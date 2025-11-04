@@ -1,42 +1,7 @@
-# The Missing Semester of Your CS Education 
+# 学习总结
 
-Website for the [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/) class!
+## 遇到的困难
+在学习过程中，首先遇到的困难是和ubuntu系统有关的，第一次接触到一个全新的系统，一开始安装系统时虽然有些不清楚，不过视频教程下还是顺利安装，但是在安装驱动时遇到了困难，即使在网上查了许多资料，还是无法解决，但是在学长的帮助下成功安装了网卡驱动。其次一些时间，输入法，插件的配置和后续中遇到零零碎碎的问题在网络和ds的帮助下基本解决。接下来是知识方面的，各种全新的命令，git,cmake，ros的使用都是从来没有学习过的，学起来有一定的难度。
 
-[中文站点](https://missing-semester-cn.github.io)(<span style="float:right"><img src = "https://img.shields.io/badge/最近一次与英文版同步-2021--04--24-green"></span>)
-
-
-Contributions are most welcome! If you have edits or new content to add, please
-open an issue or submit a pull request.
-
-## Development
-
-To build and view the site locally, run:
-
-```bash
-bundle exec jekyll serve -w
-```
-
-## License
-
-All the content in this course, including the website source code, lecture notes, exercises, and lecture videos is licensed under Attribution-NonCommercial-ShareAlike 4.0 International [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). See [here](https://missing.csail.mit.edu/license) for more information on contributions or translations.
-
------------------
-
-## Project Status
-
-To contribute to this tanslation project, please book your topic by creating an issue and I will update this table accordingly to avoid rework.
-
-|  lectures   | translator  | status |
-|  ----  | ----  |----  |
-| [course-shell.md](https://github.com/missing-semester-cn/missing-semester-cn.github.io/blob/master/_2020/course-shell.md)  | [@Lingfeng AI](https://github.com/hanxiaomax) | Done |
-| [shell-tools.md](https://github.com/missing-semester-cn/missing-semester-cn.github.io/blob/master/_2020/shell-tools.md)  | [@Lingfeng AI](https://github.com/hanxiaomax) | Done |
-| [editors.md](https://github.com/missing-semester-cn/missing-semester-cn.github.io/blob/master/_2020/editors.md)  |  [@stechu](https://github.com/stechu) | Done |
-| [data-wrangling.md](https://github.com/missing-semester-cn/missing-semester-cn.github.io/blob/master/_2020/data-wrangling.md)  | [@Lingfeng AI](https://github.com/hanxiaomax) | Done |
-| [command-line.md](https://github.com/missing-semester-cn/missing-semester-cn.github.io/blob/master/_2020/command-line.md)  | [@Lingfeng AI](https://github.com/hanxiaomax) | Done |
-| [version-control.md](https://github.com/missing-semester-cn/missing-semester-cn.github.io/blob/master/_2020/version-control.md)  | [@Lingfeng AI](https://github.com/hanxiaomax) | Done |
-| [debugging-profiling.md](https://github.com/missing-semester-cn/missing-semester-cn.github.io/blob/master/_2020/debugging-profiling.md)  |[@Lingfeng AI](https://github.com/hanxiaomax)  | Done  |
-| [metaprogramming.md](https://github.com/missing-semester-cn/missing-semester-cn.github.io/blob/master/_2020/metaprogramming.md)  | [@Lingfeng AI](https://github.com/hanxiaomax) | Done |
-| [security.md](https://github.com/missing-semester-cn/missing-semester-cn.github.io/blob/master/_2020/security.md)  | [@catcarbon](https://github.com/catcarbon) | Done |
-| [potpourri.md](https://github.com/missing-semester-cn/missing-semester-cn.github.io/blob/master/_2020/potpourri.md) |  [@catcarbon](https://github.com/catcarbon) | Done |
-| [qa.md](https://github.com/missing-semester-cn/missing-semester-cn.github.io/blob/master/_2020/qa.md) | [@AA1HSHH](https://github.com/AA1HSHH) | Done |
-| [about.md](https://github.com/missing-semester-cn/missing-semester-cn.github.io/blob/master/about.md)  | [@Binlogo](https://github.com/Binlogo)  | Done |
+## 收获
+通过一段时间的学习后，学习到了很多相关的知识，更重要的是自己的学习能力得到了提高，可以更好地通过像CSDN,b站这样的网站进行学习并使用ds，豆包等工具，以及从同伴的交流中得到启发。
