@@ -33,7 +33,7 @@ git branch -d new-branch
 ####克隆与远程连接
 ```bash
 # 克隆远程仓库
-git clone <new_repository>
+git clone new_repository
 cd new_project
 
 # 查看远程仓库信息
