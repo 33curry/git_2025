@@ -14,11 +14,11 @@
 
 ###方法一
  使用git revert回退版本（不修改历史）
-！[使用git revert 回退版本](2_1.png)
+![使用git revert 回退版本](2_1.png)
 
 ###方法二
  使用git reset回退版本（修改历史）
-！[使用git reset 回退版本](2_2.png)
+![使用git reset 回退版本](2_2.png)
 
 ##任务三
 
