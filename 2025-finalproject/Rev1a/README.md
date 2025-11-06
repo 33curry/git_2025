@@ -2,7 +2,11 @@
 
 <a id="title"></a>
 
+<<<<<<< HEAD
 ##  1.1 Markdown基本语法
+=======
+#  1.1 Markdown基本语法
+>>>>>>> master
 
 
 
@@ -122,6 +126,7 @@ _     斜体       _
 
 #### 1.1.6.2 链接跳转
 
+<<<<<<< HEAD
 [git_checkout](images/git_checkout.png)
 
 ```
@@ -173,12 +178,6 @@ https://github.com/Rev1a/Remote-Coding
 个人简单的Git的实际应用
 用于在多台设备间同步Code文件夹
 ```
-
-
-
-
-
-
 
 
 
