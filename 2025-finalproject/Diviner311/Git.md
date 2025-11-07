@@ -49,3 +49,7 @@ git checkout main
 git cherry-pick <commit-id>
 ```
 
+# 引用图片
+<img src="pic1.png" alt="伟大的Acane女士" style="zoom:50%;" />
+<img src="pic2.png" alt="超市玩偶" style="zoom: 25%;" />
+<img src="pic3.png" alt="小熊冰柠茶" style="zoom: 25%;" />
