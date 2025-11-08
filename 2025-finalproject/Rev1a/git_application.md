@@ -17,12 +17,12 @@ git restore <文件名>            //回退修改
 
                                //对已修改，已暂存和已修改，未暂存的文件回退
                                
-         // 可通过 git ~ --help 在本地找到~对应的html
+         // 可通过 git restore --help 在本地找到对应的html
 ```
 
 ![](/images/git_restore.png)
 
-
+![](screenshot\restore.png)
 
 #### 方法2
 
@@ -32,14 +32,7 @@ git checkout -- 对应文件        //对已修改，未暂存的文件回退到
 
 <img src="/images/git_checkout.png" style="zoom: 33%;" />
 
-
-
-```  
-对应命令为 git checkout --help
-
-```
-
-![](/images/git_checkout_2.png)
+![](screenshot\checkout.png)
 
 ---
 
@@ -53,13 +46,11 @@ git checkout -- 对应文件        //对已修改，未暂存的文件回退到
 
 ```
 git revert HEAD              //不修改历史的方法来回退上一次提交的版本
-
-对应命令  git rrevert --help
 ```
 
 ![](/images/git_revert.png)
 
-
+![](screenshot\revert.png)
 
 #### 方法2
 
@@ -69,9 +60,9 @@ git reset --hard HEAD^       //修改历史记录的回退
  //会撤销工作区中所有未提交的修改内容，将暂存区与工作区都回到上一次版本，并删除之前的所有信息提交
 ```
 
-<img src="/images/git_reset.png" style="zoom:33%;" />
 
-<img src="/images/git_reset_2.png" style="zoom: 25%;" />
+
+![](screenshot\reset_1.png)
 
 ---
 
@@ -87,7 +78,7 @@ git reset --hard HEAD^       //修改历史记录的回退
 git rebase <commit>         //将对应分支切换到主分支，从而使提交历史更整洁，线性 
 ```
 
-
+![](screenshot\rebase.png)
 
 #### 方法2
 
@@ -95,9 +86,13 @@ git rebase <commit>         //将对应分支切换到主分支，从而使提�
 git cherry-pick <对应哈希>   //只会将某部分代码变动进行同步
 ```
 
-> 下面是获取最近一次提交的哈希的操作
->
-> ![](/images/git_cherry-pick.png)
+![](screenshot\cherry.png)
+
+![](screenshot\cherry2.png)
+
+![](screenshot\cherry3.png)
+
+
 
 ---
 

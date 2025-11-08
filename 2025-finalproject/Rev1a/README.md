@@ -2,11 +2,7 @@
 
 <a id="title"></a>
 
-<<<<<<< HEAD
-##  1.1 Markdown基本语法
-=======
 #  1.1 Markdown基本语法
->>>>>>> master
 
 
 
@@ -59,7 +55,7 @@ _     斜体       _
 分割线是
 
 ```--
----
+--
 ```
 
 
@@ -126,57 +122,11 @@ _     斜体       _
 
 #### 1.1.6.2 链接跳转
 
-<<<<<<< HEAD
-[git_checkout](images/git_checkout.png)
-
-```
-上面链接的实际代码    [git_checkout](images/git_checkout.png)
-```
-
-Ctrl+左键能打开对应图片
+skip
 
 
 
----
-
-
-
-## 1.2 Git
-
-### 1.2.1 常用命令
-
-```
-git init	                  初始化一个 Git 仓库
-git clone <url>	              从远程仓库复制项目到本地
-git status	                  查看当前状态（修改、暂存等）
-git add <file>	              将文件加入暂存区
-git commit -m "message"	      提交修改并附上说明
-git log	                      查看提交历史
-git branch	                  查看或创建分支
-git checkout <branch>	      切换分支
-git merge <branch>	          合并分支
-git push	                  上传到远程仓库
-git pull                      从远程仓库更新到本地
-
-
-
-最常用:
-git pull
-git status
-git add .
-git commit -m"对应的更新说明"
-git push origin main
-git branch
-```
-
-### 1.2.2 GitHub
-
-```
-https://github.com/Rev1a/Remote-Coding
-
-个人简单的Git的实际应用
-用于在多台设备间同步Code文件夹
-```
+## 1.2 
 
 
 
