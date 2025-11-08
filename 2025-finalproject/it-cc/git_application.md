@@ -6,7 +6,7 @@
 1.3 使用git restore命令:
 git restore --staged <file>:取消已经暂存的文件
 git restore          <file>:恢复文件内容到上次提交的状态
-![reset and restore](images/reset and restore.png)
+![reset and restore](images/2025-11-08 22-57-29 的屏幕截图.png)
 
 ---
 
