@@ -4,7 +4,9 @@
 
 ### 若你已经修改了部分文件、并且将其中的一部分加入了暂存区，应该如何回退这些修改，恢复到修改前最后一次提交的状态？给出至少两种不同的方式
 
-
+> 下面的EXAMPLES截图 都能在 Git Bash的安装目录下找到
+>
+> 路径为  :  Git/mingw64/share/doc/git-doc/
 
 #### 方法1
 
@@ -14,7 +16,11 @@ git restore --staged <文件名>   //撤回暂存
 git restore <文件名>            //回退修改
 
                                //对已修改，已暂存和已修改，未暂存的文件回退
+                               
+         // 可通过 git ~ --help 在本地找到~对应的html
 ```
+
+![](/images/git_restore.png)
 
 
 
@@ -28,6 +34,13 @@ git checkout -- 对应文件        //对已修改，未暂存的文件回退到
 
 
 
+```  
+对应命令为 git checkout --help
+
+```
+
+![](/images/git_checkout_2.png)
+
 ---
 
 
@@ -36,12 +49,12 @@ git checkout -- 对应文件        //对已修改，未暂存的文件回退到
 
 ### 若你已经提交了一个新版本，需要回退该版本，应该如何操作？分别给出不修改历史或修改历史的至少两种不同的方式
 
-
-
 #### 方法1
 
 ```
 git revert HEAD              //不修改历史的方法来回退上一次提交的版本
+
+对应命令  git rrevert --help
 ```
 
 ![](/images/git_revert.png)
@@ -56,9 +69,9 @@ git reset --hard HEAD^       //修改历史记录的回退
  //会撤销工作区中所有未提交的修改内容，将暂存区与工作区都回到上一次版本，并删除之前的所有信息提交
 ```
 
+<img src="/images/git_reset.png" style="zoom:33%;" />
 
-
-
+<img src="/images/git_reset_2.png" style="zoom: 25%;" />
 
 ---
 
@@ -82,7 +95,11 @@ git rebase <commit>         //将对应分支切换到主分支，从而使提�
 git cherry-pick <对应哈希>   //只会将某部分代码变动进行同步
 ```
 
-
+> 下面是获取最近一次提交的哈希的操作
+>
+> ![](/images/git_cherry-pick.png)
 
 ---
+
+
 

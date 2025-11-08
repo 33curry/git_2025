@@ -59,7 +59,7 @@ _     斜体       _
 分割线是
 
 ```--
---
+---
 ```
 
 
@@ -141,7 +141,7 @@ Ctrl+左键能打开对应图片
 
 
 
-## 1.2 Git总结
+## 1.2 Git
 
 ### 1.2.1 常用命令
 
@@ -160,14 +160,13 @@ git pull                      从远程仓库更新到本地
 
 
 
-
 最常用:
 git pull
 git status
 git add .
-git commit -m"更新说明"
+git commit -m"对应的更新说明"
 git push origin main
-
+git branch
 ```
 
 ### 1.2.2 GitHub
