@@ -16,13 +16,13 @@
 
 ### 实际行动：
 
-利用[csdn:《git详细使用教程》](https://www.bing.com/search?pc=MOZI&form=MOZLBR&q=markdown%E4%B8%AD%E5%A6%82%E4%BD%95%E5%BC%95%E7%94%A8%E9%93%BE%E6%8E%A5)学习git基本使用技巧；
+1、利用[csdn:《git详细使用教程》](https://www.bing.com/search?pc=MOZI&form=MOZLBR&q=markdown%E4%B8%AD%E5%A6%82%E4%BD%95%E5%BC%95%E7%94%A8%E9%93%BE%E6%8E%A5)学习git基本使用技巧；
 
-利用百度和雨课堂了解git工作机制以及为什么我们需要git；
+2、利用百度和雨课堂了解git工作机制以及为什么我们需要git；
 
-有问题请教AI及百度；
+3、有问题请教AI及百度；
 
-按照作业要求编写两份文档；
+4、按照作业要求编写两份文档；
 
 
 
