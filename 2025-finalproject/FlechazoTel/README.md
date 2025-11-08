@@ -1,1 +1,5 @@
-/home/f/git_2025/2025-finalproject/FlechazoTel/biji.jpg
+![笔记](../FlechazoTel/biji.jpg
+
+
+
+
