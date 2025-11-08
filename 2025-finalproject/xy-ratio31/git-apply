@@ -1,7 +1,7 @@
-![backspace correction sat once](./images/backcorrect1.png)
-![seperately backspace correction](./images/backcorrect2.png)
-![backspace version with chance to recompose](./images/backversion1.png)
-![backspace version without chance to recompose](./images/backversion2.png)
-![use rebase to merge](./images/merge1.png)
-![use cherry-pick,only merge specific section](./images/merge1.png)
+![backspace correction sat once](./git-images/backcorrect1.png)
+![seperately backspace correction](./git-images/backcorrect2.png)
+![backspace version with chance to recompose](./git-images/backversion1.png)
+![backspace version without chance to recompose](./git-images/backversion2.png)
+![use rebase to merge](./git-images/merge1.png)
+![use cherry-pick,only merge specific section](./git-images/merge1.png)
 
