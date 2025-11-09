@@ -1,0 +1,28 @@
+### 常用命令
+- git status
+- git add . 提交所有文件
+- git add test.txt只提交特定文件
+- git commit -m"  "一定要说明你提交了什么用信息传递
+- git log查看所有的提交信息
+### 分支管理
+- git branch  develop创建新的分支
+- git status查看分支状态
+- git checkout master 切回分支master
+- 注意 暂存区的东西当你切换分支的时候会带去 一定要提交后再切换分支
+- git branch查看所有的分支
+- 合并代码用clion
+	- 合并冲突 
+- git reset 
+	- --soft 只重置到指定的提交 暂存区和工作目录保持不变
+	- --mixed重置到指定的提交、暂存区 但是工作目录保持不变
+	- --hard重置到指定的提交，暂存区和工作目录都重置 
+- git revert 撤销某次提交
+- git push
+	- git remote add test ssh
+	- 按照操作就会推送到远程master
+- fork/clone
+	- clone拉到本地
+	- fork是拉到远程 sync fork
+- pull requests
+	- 在fork前提下本人和项目负责人都进行了修改
+	- 申请让项目负责人接收我的代码
