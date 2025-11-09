@@ -5,7 +5,7 @@
 
 **场景：** 已经修改了部分文件，并且将其中一部分加入了暂存区，需要回退这些修改。
 
-### 方法一：使用 `git restore`
+### 方法一：`git restore`
 
 #### 1. 取消暂存区的文件
 ```bash
@@ -32,7 +32,7 @@ git restore .
 
 ---
 
-### 方法二：使用 `git reset`
+### 方法二：`git reset`
 
 #### 硬重置
 ```bash
@@ -47,7 +47,7 @@ git reset --hard HEAD
 
 ---
 
-### 方法三：使用 `git checkout`
+### 方法三：`git checkout`
 ```bash
 # 取消暂存并丢弃修改
 git checkout HEAD <file>
@@ -66,7 +66,7 @@ git checkout HEAD .
 
 ### 不修改历史:
 
-#### 使用 `git revert`
+#### `git revert`
 
 `git revert` 会创建一个新的提交来撤销之前的提交，不会修改历史记录
 
@@ -88,7 +88,7 @@ git revert <commit-hash>
 
 修改历史会改变提交的 SHA 值，可能影响其他协作者。
 
-#### 使用 `git reset --soft`
+#### `git reset --soft`
 
 保留工作区和暂存区的修改，只移动 HEAD 指针。
 
@@ -114,7 +114,7 @@ git commit -m "New commit message"
 **场景：** 除 `git merge`的其他方式合并分支。
 
 ---
-### 方法一：使用 `git cherry-pick`
+### 方法一：`git cherry-pick`
 
 选择性地将其他分支的特定提交应用到当前分支。
 
@@ -138,7 +138,7 @@ git cherry-pick <start-commit>..<end-commit>
 ---
 
 
-### 方法二：使用 `git rebase`
+### 方法二：`git rebase`
 
 将当前分支的提交重新应用到目标分支上，创建线性历史。
 
