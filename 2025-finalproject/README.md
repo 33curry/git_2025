@@ -8,5 +8,6 @@ graph TD
     E --> F[shell语言,vim和脚本]
     F --> G[配置文件 别名 ssh密钥 ssh连接github]
     G --> K[git仓库 git操作]
-    K --> L[ROS初认识]
+    K --> H[cmake , cmakelist.txt]
+    H --> L[ROS初认识]
 ```
