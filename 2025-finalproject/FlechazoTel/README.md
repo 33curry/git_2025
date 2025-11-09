@@ -1,1 +1,1 @@
-../2025-finalproject/FlechazoTel/biji.jpg
+![1](2025-finalproject/FlechazoTel/biji.jpg)
