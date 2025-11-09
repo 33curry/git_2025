@@ -22,6 +22,12 @@
 ## 问题 3：我们已经知道了合并分支可以使用 merge，但这不是唯一的方法，给出至少两种不同的合并分支的方式
 ### 方式一：使用 `git rebase` 合并分支
 假设当前在 `feature` 分支，要将 `master` 分支的提交合并到 `feature` 分支，可使用 `git rebase master` 命令。`git rebase` 会将 `feature` 分支上的提交“搬移”到 `master` 分支的最新提交之后，使提交历史变成一条直线，更加整洁。
+![git rebase执行结果](Z-jiat11/images/img5.png)
+![git rebase执行结果](Z-jiat11/images/img6.png)
+![git rebase执行结果](Z-jiat11/images/img7.png)
+
 ### 方式二：使用 `git cherry-pick` 合并单个提交
 如果只需要将其他分支的某个特定提交合并到当前分支，可使用 `git cherry-pick <commit>` 命令（`<commit>` 为目标提交的哈希值）。`git cherry-pick` 会将指定的提交复制到当前分支，并创建一个新的提交，适用于只合并部分提交的情况。
+![git cherry-pick执行结果](Z-jiat11/images/img8.png)
+![git cherry-pick执行结果](Z-jiat11/images/img9.png)
 
