@@ -80,4 +80,4 @@ rebase后：
 
 ![](/home/green_gdut/Liuyanchen-work/2025-finalproject/2025-11-09 23-50-29 的屏幕截图.png)
 
-实例解析：我们在分支new_test_branch里添加新的提交。然后回到分支dev添加测试文件test.md,同样的，新增提交。此时两个分支存在分歧，使用rebase后，我们回到dev分支，可以看到右下角增加了一个“test.md”。这表明rebase完成了
+实例解析：我们在分支new_test_branch里添加新的提交。然后回到分支dev添加测试文件test.md,同样的，新增提交。此时两个分支存在分歧，使用rebase后，我们回到dev分支，可以看到右下角增加了一个“test.md”。这表明rebase完成了。
