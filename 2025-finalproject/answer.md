@@ -20,7 +20,7 @@ git  restore  <file>
 git  restore .
 ```
 
-### ![2025-11-09 15-20-56 的屏幕截图](/home/thunder/git_homework/git_2025/2025-finalproject/2025-11-09 15-20-56 的屏幕截图.png)方式二：使用 `git reset` 和 `git checkout`
+### ![2025-11-09 15-20-56 的屏幕截图](2025-11-09 15-20-56 的屏幕截图.png)方式二：使用 `git reset` 和 `git checkout`
 
 ```bash
 
@@ -30,7 +30,7 @@ git reset
 # 回退工作区的修改
 git checkout -- .
 ```
-![2025-11-09 17-15-11 的屏幕截图](/home/thunder/git_homework/git_2025/2025-finalproject/2025-11-09 17-15-11 的屏幕截图.png)
+![2025-11-09 17-15-11 的屏幕截图](2025-11-09 17-15-11 的屏幕截图.png)
 
 ## # 2.回退已提交版本的多种方式
 
@@ -50,7 +50,7 @@ git revert HEAD
 # 推送到远程仓库
 git push origin master
 ```
-![2025-11-09 15-54-19 的屏幕截图](/home/thunder/git_homework/git_2025/2025-finalproject/2025-11-09 15-54-19 的屏幕截图.png)
+![2025-11-09 15-54-19 的屏幕截图](2025-11-09 15-54-19 的屏幕截图.png)
 
 ## 使用 `git checkout` 命令
 
@@ -59,7 +59,7 @@ git push origin master
 -   你看到的 “头指针分离于 e3c0e58”（`HEAD detached at e3c0e58`），表示当前处于**分离 HEAD 状态**
 -   若要保留在分离状态下的新提交，需要基于当前 HEAD 创建一个新分支：`git checkout -b <新分支名>`，这样新分支会指向当前 HEAD 所在的提交，新提交也会被该分支跟踪。
 -   接下来可以再合并分支
--   ![2025-11-09 17-06-29 的屏幕截图](/home/thunder/git_homework/git_2025/2025-finalproject/2025-11-09 17-06-29 的屏幕截图.png)
+-   ![2025-11-09 17-06-29 的屏幕截图](2025-11-09 17-06-29 的屏幕截图.png)
 
 ## 修改历史的方式
 
@@ -79,7 +79,7 @@ git checkout -- .  # 丢弃所有修改
 # 如果需要推送到远程
 git push --force-with-lease origin master
 ```
-![2025-11-09 16-28-39 的屏幕截图](/home/thunder/git_homework/git_2025/2025-finalproject/2025-11-09 16-28-39 的屏幕截图.png)
+![2025-11-09 16-28-39 的屏幕截图](2025-11-09 16-28-39 的屏幕截图.png)
 
 ### 方式二：使用交互式 rebase
 
@@ -94,7 +94,7 @@ git rebase -i HEAD~1
 # 强制推送到远程
 git push --force-with-lease origin master
 ```
-![2025-11-09 16-31-17 的屏幕截图](/home/thunder/git_homework/git_2025/2025-finalproject/2025-11-09 16-31-17 的屏幕截图.png)
+![2025-11-09 16-31-17 的屏幕截图](2025-11-09 16-31-17 的屏幕截图.png)
 
 ## 3.合并分支的多种方式
 
@@ -121,7 +121,7 @@ git rebase --continue  # 继续完成变基
 # 变基完成后，将结果推送到远程（若远程已有该分支，可能需要 -f 强制推送）
 git push origin feature-branch
 ```
-![2025-11-09 17-23-12 的屏幕截图](/home/thunder/git_homework/git_2025/2025-finalproject/2025-11-09 17-23-12 的屏幕截图.png)
+![2025-11-09 17-23-12 的屏幕截图](2025-11-09 17-23-12 的屏幕截图.png)
 
 ### 2. 使用 `git cherry-pick` 选择性合并单个提交
 
@@ -150,6 +150,6 @@ git cherry-pick --continue  # 继续应用提交
 # （若需放弃，执行 git cherry-pick --abort）
 ```
 
-![2025-11-09 16-44-52 的屏幕截图](/home/thunder/git_homework/git_2025/2025-finalproject/2025-11-09 16-44-52 的屏幕截图.png)
+![2025-11-09 16-44-52 的屏幕截图](2025-11-09 16-44-52 的屏幕截图.png)
 
-![2025-11-09 16-40-52 的屏幕截图](/home/thunder/git_homework/git_2025/2025-finalproject/2025-11-09 16-40-52 的屏幕截图.png)
+![2025-11-09 16-40-52 的屏幕截图](2025-11-09 16-40-52 的屏幕截图.png)
