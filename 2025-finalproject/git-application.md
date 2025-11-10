@@ -1,7 +1,7 @@
 ```bash 
 
 #Learning Courses Record
-```markdown
+```bash
 # Shell基础知识部分
 
 ## 通配符
