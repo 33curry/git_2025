@@ -1,0 +1,142 @@
+Demo capture: 2025年 10月 29日 星期三 20:42:56 CST
+
+--- branches (local + remote) ---
+  PR-Test                9f899af test method two the revert
+  demo-base              10dddcc feat: add demo C
+  master                 66acba5 Merge branch 'master' of github.com:33curry/git_2025
+* rebase-demo            8b68b86 fixup! feat: add demo A
+  reset-hard             3042be9 feat: add demo B
+  reset-mixed            3042be9 feat: add demo B
+  reset-soft             3042be9 feat: add demo B
+  remotes/origin/HEAD    -> origin/master
+  remotes/origin/PR-Test 3aedaf8 docs: 记录 upstream 本地分支与 PR 流程的命令行方案（PR-Test）
+  remotes/origin/master  66acba5 Merge branch 'master' of github.com:33curry/git_2025
+
+--- git graph (recent) ---
+* 8b68b86 (HEAD -> rebase-demo) fixup! feat: add demo A
+* 10dddcc (demo-base) feat: add demo C
+| * f1c0695 (refs/stash) On reset-mixed: demo-stash
+|/| 
+| * 3141399 index on reset-mixed: 3042be9 feat: add demo B
+|/  
+* 3042be9 (reset-soft, reset-mixed, reset-hard) feat: add demo B
+* cb6e881 feat: add demo A
+* 9f899af (PR-Test) test method two the revert
+* e2cf991 Revert "testing revert the commit"
+* 9cc72b6 testing revert the commit 
+| * 3aedaf8 (origin/PR-Test) docs: 记录 upstream 本地分支与 PR 流程的命令行方案（PR-Test）
+| * 0ab4d21 Modify README.md
+|/  
+*   66acba5 (origin/master, origin/HEAD, master) Merge branch 'master' of github.com:33curry/git_2025
+|\  
+| *   efd39a0 Merge pull request #2 from lovodllt/master
+| |\  
+| | * 0c48da3 test
+| |/  
+* / 5c0c821 Update README.md.
+|/  
+* 24a597c add README.md
+* d983fff Delete _2022-finalproject directory
+*   ddcb4d9 Merge pull request #78 from liyixin135/master
+|\  
+| *   ee9c0ec Merge branch 'master' of github.com:liyixin135/missing-semester Again
+| |\  
+| | *   c034ac4 Merge branch 'gdut-dynamic-x:master' into master
+| | |\  
+| * | | ab47f29 progress6
+| * | | d2c5992 progress5
+| * | | db9a3e7 progress3
+| * | | b47d460 progress2
+| * | | d56d060 progress2
+| * | | 877b072 bin
+| * | | be1d764 first try
+| * | | 9e6a70f try
+| |/ /  
+| * | b54c5e5 again
+| * |   78c9d52 Merge branch 'master' of github.com:liyixin135/missing-semester this is my homework
+| |\ \  
+| | * \   7e01306 Merge branch 'gdut-dynamic-x:master' into master
+| | |\ \  
+| * | | | 6094b60 final project
+| * | | | 08c0b5e forth
+| * | | | b81ce1e third
+| * | | | ca5690a second
+| * | | | 339e7b9 second
+| * | | | 7d440fc first
+| |/ / /  
+| * | | 9b4c6ed 测试
+* | | |   dcb171d Merge pull request #87 from cappp666/master
+|\ \ \ \  
+| * | | | c210d4f 2
+
+=== switch demo-base ===
+--- status ---
+## demo-base
+?? 2025-finalproject/logs/
+--- log (last 6) ---
+10dddcc feat: add demo C
+3042be9 feat: add demo B
+cb6e881 feat: add demo A
+9f899af test method two the revert
+e2cf991 Revert "testing revert the commit"
+9cc72b6 testing revert the commit
+
+=== switch reset-soft ===
+--- status ---
+## reset-soft
+?? 2025-finalproject/logs/
+--- log (last 6) ---
+3042be9 feat: add demo B
+cb6e881 feat: add demo A
+9f899af test method two the revert
+e2cf991 Revert "testing revert the commit"
+9cc72b6 testing revert the commit
+66acba5 Merge branch 'master' of github.com:33curry/git_2025
+
+=== switch reset-mixed ===
+--- status ---
+## reset-mixed
+?? 2025-finalproject/logs/
+--- log (last 6) ---
+3042be9 feat: add demo B
+cb6e881 feat: add demo A
+9f899af test method two the revert
+e2cf991 Revert "testing revert the commit"
+9cc72b6 testing revert the commit
+66acba5 Merge branch 'master' of github.com:33curry/git_2025
+
+=== switch reset-hard ===
+--- status ---
+## reset-hard
+?? 2025-finalproject/logs/
+--- log (last 6) ---
+3042be9 feat: add demo B
+cb6e881 feat: add demo A
+9f899af test method two the revert
+e2cf991 Revert "testing revert the commit"
+9cc72b6 testing revert the commit
+66acba5 Merge branch 'master' of github.com:33curry/git_2025
+
+=== switch rebase-demo ===
+--- status ---
+## rebase-demo
+?? 2025-finalproject/logs/
+--- log (last 6) ---
+8b68b86 fixup! feat: add demo A
+10dddcc feat: add demo C
+3042be9 feat: add demo B
+cb6e881 feat: add demo A
+9f899af test method two the revert
+e2cf991 Revert "testing revert the commit"
+
+=== switch PR-Test ===
+--- status ---
+## PR-Test
+?? 2025-finalproject/logs/
+--- log (last 6) ---
+9f899af test method two the revert
+e2cf991 Revert "testing revert the commit"
+9cc72b6 testing revert the commit
+66acba5 Merge branch 'master' of github.com:33curry/git_2025
+5c0c821 Update README.md.
+efd39a0 Merge pull request #2 from lovodllt/master
