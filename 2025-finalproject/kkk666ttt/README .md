@@ -17,5 +17,5 @@ Git 课程学习总结
 
 
 
-![山田凉 公众号桂木动漫 (1)(1)](/home/kee/kkk666ttt/2025-finalproject/kkk666ttt/images/山田凉 公众号桂木动漫 (1)(1).png)
+![山田凉 公众号桂木动漫 (1)(1)](images/山田凉 公众号桂木动漫 (1)(1).png)
 
