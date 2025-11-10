@@ -10,6 +10,8 @@ git checkout -- <文件名>
 
 git checkout .
 
+![a3dc33c6b8916776e865c678372ddf29](https://radiantheart.oss-cn-guangzhou.aliyuncs.com/myimage/20251110232056887.png)
+
 ### 方法二：`git stash`临时保存修改
 
 git stash save "临时保存修改"
@@ -18,7 +20,7 @@ git stash save "临时保存修改"
 
 git stash apply stash@{0}  *# 恢复指定的stash*
 
-
+![bb8da1221d72b2d1dd90f97658c29314](https://radiantheart.oss-cn-guangzhou.aliyuncs.com/myimage/20251110232112169.png)
 
 ## 第二问：若你已经提交了一个新版本，需要回退该版本，应该如何操作？分别给出不修改历史或修改历史的至少两种不同的方式
 
@@ -30,6 +32,8 @@ git reset --soft <提交哈希> #保留工作目录和暂存区的更改
 git reset --mixed <提交哈希> #保留工作目录更改，重置暂存区
 git reset --hard <提交哈希> #丢弃所有更改，完全回退到指定状态
 
+![1e6ec740f2a94bc7aa7522eaed58cb55](https://radiantheart.oss-cn-guangzhou.aliyuncs.com/myimage/20251110232127548.png)
+
 ### 方式二：`git revert`
 
 git log --oneline
@@ -37,6 +41,8 @@ git log --oneline
 git revert <提交的哈希值>
 
 git revert <较早提交>..<较新提交>
+
+![af164a952494429abdd7d0d2d92c123b](https://radiantheart.oss-cn-guangzhou.aliyuncs.com/myimage/20251110232139172.png)
 
 ## 第三问：我们已经知道了合并分支可以使用 merge，但这不是唯一的方法，给出至少两种不同的合并分支的方式
 
@@ -46,6 +52,8 @@ git checkout feature-branch#切换到要变基的特性分支
 
 git rebase main#将当前分支变基到主分支
 
+![1a833519db93b3d3895d22ef57ae6c88](https://radiantheart.oss-cn-guangzhou.aliyuncs.com/myimage/20251110232149148.png)
+
 ### 方法二：git cherry-pick 选择性应用提交
 
 git log --oneline another-branch#查看要选取的提交哈希值
@@ -53,3 +61,5 @@ git log --oneline another-branch#查看要选取的提交哈希值
 git checkout main#切换到目标分支
 
 git cherry-pick <提交哈希1> <提交哈希2>#将特定提交应用到当前分支
+
+![d247c4402ee241985f25084ba164fccd](https://radiantheart.oss-cn-guangzhou.aliyuncs.com/myimage/20251110232201339.png)
