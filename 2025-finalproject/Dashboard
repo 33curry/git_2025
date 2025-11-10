@@ -20,7 +20,9 @@
 # Git作业
 ## 问题1
 - 可撤销暂存区的修改回退工作区："git reset HEAD <file>"
+  ![reset head 效果](问题1方式1.png)
 - 可将暂存区和工作区的所有修改回退到最后一次提交："git reset --hard HEAD"
+  ![reset head 效果](photo/问题方式2.png)
 
 ## 问题2
 - 不修改历史回退："git revert <hash>"
