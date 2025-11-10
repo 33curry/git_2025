@@ -1,5 +1,4 @@
-This is my README.
-  # 'Git' 的使用
+# 'Git' 的使用
   ## 仓库初始化与克隆
     - 初始化本地仓库:'git init' 
     - 克隆远程仓库:'git clone <远程仓库地址>'
@@ -16,3 +15,18 @@ This is my README.
     - 当远程仓库需要拉取时（合并到本地仓库）：'git pull <远程主机名> <远程分支名>:<本地分支名>'
   ## 合并
       - 'git merge'
+
+
+# Git作业
+## 问题1
+- 可撤销暂存区的修改回退工作区："git reset HEAD <file>"
+- 可将暂存区和工作区的所有修改回退到最后一次提交："git reset --hard HEAD"
+
+## 问题2
+- 不修改历史回退："git revert <hash>"
+- 修改历史的会退："git reset --hard"
+- git rebase -i <hash>
+## 问题3
+- 先切换到新创建的分支：'git checkout' ,执行变基：'git rebase main',再切换到main分支合并,
+  'git checkout main','git merge <分支>'
+- 挑选提交合并，先切换到main分支，挑选提交："git cherry-pick <hash>"
