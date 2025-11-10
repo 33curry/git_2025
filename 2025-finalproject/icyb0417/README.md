@@ -2,7 +2,7 @@
 
 2.再是找到个github后fork下来，然后用ssh，但是出了问题无法clone到本地，再是自己重新配置环境后成功。
 
-3.然后新开pr，开始md文本创建，学习markdown的引用图片方式。![markdown引用图片截图](./image/1.png)
+3.然后新开pr，开始md文本创建，学习markdown的引用图片方式。
 
 4.然后第一个问题学习回退暂存区的reset 和reset --hard和restore。![git reset 命令执行截图](./image/1.1.png)![git restore 命令执行截图](./image/1.2.png)
 
