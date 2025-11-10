@@ -17,5 +17,5 @@ Git 课程学习总结
 
 
 
-![yamada￥$￥](images/YamadaRyo.png)
+![yamada￥$￥](YamadaRyo.png)
 
