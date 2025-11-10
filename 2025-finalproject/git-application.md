@@ -1,7 +1,7 @@
-```bash 
+
 
 #Learning Courses Record
-```bash
+
 # Shell基础知识部分
 
 ## 通配符
@@ -12,7 +12,7 @@
 
 # Markdown语法手记
 
-- [ ] 和 - [x] 表示动态的选项框
++ - [ ] 和 - [x] 表示动态的选项框
 ## 表示标题
 
 # Git基础知识部分
